@@ -45,14 +45,14 @@ const MessageForm = () => {
       className={styles.chatInputContainer}
     >
       <div className={styles.chatInputWrapper}>
-        <div className={styles.svgContainer}>
+        {/* <div className={styles.svgContainer}>
           <Image
             height={25}
             width={25}
             src={plusFilled}
             className={styles.svg}
           />
-        </div>
+        </div> */}
         <input
           type='text'
           className={styles.chatInput}
@@ -62,7 +62,7 @@ const MessageForm = () => {
           placeholder={placeholder}
         />
 
-        <div className={styles.svgContainer}>
+        {/* <div className={styles.svgContainer}>
           <Image height={25} width={25} src={gift} className={styles.svg} />
         </div>
         <div className={styles.svgContainer}>
@@ -73,7 +73,7 @@ const MessageForm = () => {
         </div>
         <div className={styles.svgContainer}>
           <Image height={25} width={25} src={smiley} className={styles.svg} />
-        </div>
+        </div> */}
       </div>
     </form>
   )
