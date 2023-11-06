@@ -1,0 +1,96 @@
+.card {
+    width: 700px;
+    height: 585px;
+    background: #313131;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .img {
+    height: 30%;
+    width: fit-content;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+  }
+  
+  .textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+  }
+  
+  .textBox > .text {
+    font-weight: bold;
+  }
+  
+  .textBox > .head {
+    font-size: 20px;
+  }
+  
+  .textBox > .price {
+    font-size: 17px;
+  }
+  
+  .textBox > span {
+    font-size: 12px;
+    color: lightgrey;
+  }
+  
+  .card:hover > .textBox {
+    opacity: 1;
+  }
+  
+  .card:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+  }
+
+  .centeredContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .card:hover {
+    transform: scale(1.04);
+  }
+  
+  .connectWallet {
+    margin-right: 10px;
+    background-color: orange;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .separator {
+    margin: 0 10px;
+  }
