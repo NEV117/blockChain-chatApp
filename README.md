@@ -1,4 +1,4 @@
-# 🌐 Aplicación de Mensajería Basada en Blockchain
+# 🌐 Blockchain Based Messaging App
 
 ---
 
@@ -38,7 +38,7 @@ Para una instalación rápida, solo es necesario ejecutar el cliente localmente:
 
 4. Configurar Variables de Entorno:
 
-    Dirígete a la carpeta `client` y utiliza la estructura de `env.local.example` para crear un nuevo archivo `.env`. Pide los IDs a Nicolás o utiliza unos propios.
+    Dirígete a la carpeta `client` y utiliza la estructura de `env.local.example` para crear un nuevo archivo `.env`. Pide los IDs al grupo de trabajo o utiliza unos propios.
 
     ```
     SANITY_PROJECT_ID='tu ID de Sanity'
