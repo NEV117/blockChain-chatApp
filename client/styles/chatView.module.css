@@ -5,6 +5,8 @@
   overflow-y: scroll;
   overflow: hidden;
   position: relative;
+  background-image: url('../assets/cruz.png');
+  
 }
 
 .messagesContainer {

@@ -34,26 +34,14 @@ const ChatHeader = () => {
 
       <div className={styles.headerIconsContainer}>
         <div className={styles.headerItem}>
-          <Image
-            height={25}
-            width={25}
-            src={phone}
-            className={styles.svg}
-            alt=''
-          />
+        
         </div>
         <div className={styles.headerItem}>
-          <Image
-            height={25}
-            width={25}
-            src={video}
-            className={styles.svg}
-            alt=''
-          />
+        
         </div>
       </div>
       <div className={styles.headerItem}>
-        <Image height={25} width={25} src={pin} className={styles.svg} alt='' />
+        
       </div>
       <div className={styles.headerItem}>
         <Image
@@ -68,22 +56,10 @@ const ChatHeader = () => {
         <input type='search' placeholder='Search' />
       </div>
       <div className={styles.headerItem}>
-        <Image
-          height={25}
-          width={25}
-          src={inbox}
-          className={styles.svg}
-          alt=''
-        />
+        {" "}
       </div>
       <div className={styles.headerItem}>
-        <Image
-          height={25}
-          width={25}
-          src={help}
-          className={styles.svg}
-          alt=''
-        />
+        {" "}
       </div>
     </div>
   )
