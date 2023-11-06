@@ -20,7 +20,7 @@ const ConversationList = () => {
   return (
     <div className={styles.conversations}>
       <div className={styles.conversationListTop}>
-        <input type='search' placeholder='Find or start a conversation' />
+        <input type='search' placeholder='Find a conversation' />
       </div>
       <div className={styles.conversationsContainer}>
         {/* <div className={styles.elementsContainer}>
@@ -47,7 +47,7 @@ const ConversationList = () => {
           </div>
           <p>Nitro</p>
         </div> */}
-        <div className={styles.dmTitle}>DIRECT MESSAGES</div>
+        <div className={styles.dmTitle}>Emergency Chat</div>
         {dms.map((dm, index) => (
           <DmCard
             key={index}
