@@ -3,7 +3,7 @@
   overflow-y: scroll;
   overflow: hidden;
   position: relative;
-  background: #2f3136;
+  background: #ececec;
 }
 
 .conversationsContainer {
@@ -18,7 +18,7 @@
   padding: 10px;
   z-index: 10;
   width: 100%;
-  background: #2f3136;
+  background: #ececec;
   margin-bottom: 1rem;
 }
 
