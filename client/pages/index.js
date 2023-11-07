@@ -8,19 +8,18 @@ import { useRouter } from 'next/router';
 
 export default function Home() {
   
-  const { roomName, currentAccount, connectWallet } =
+  const { currentAccount } =
     useContext(DiscordContext);
-    const router = useRouter();
 
-  console.log(currentAccount)
-  
+  const router = useRouter();
+
   useEffect(() => {
     if (!currentAccount) {
-      router.push('/auth');
+      router.push('/auth')
     }
   }, [currentAccount, router]);
 
-  return (
+  return currentAccount ? (
     <div className={styles.wrapper}>
       <SideBar />
       <div className={styles.main}>
@@ -28,5 +27,5 @@ export default function Home() {
         <ChatView />
       </div>
     </div>
-  )
+  ): null;
 }

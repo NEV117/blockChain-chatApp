@@ -6,7 +6,7 @@ export default async (req, res) => {
   const userDoc = {
     _type: 'users',
     _id: `${userAddress}-user`,
-    name: 'Unnamed',
+    name: `User${userAddress.slice(0, 6)}`,
     walletAddress: userAddress,
   }
 
