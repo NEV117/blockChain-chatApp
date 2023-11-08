@@ -106,5 +106,5 @@ De forma resumida, debemos hacer `deploy` de la carpeta `server` del repositorio
 ---
 ### 🧾 Creditos 
 <p align="left">
-  Este proyecto es una versión modificada y adaptada de un proyecto de  <a href="https://www.youtube.com/@CleverProgrammer">@Clever Programmer</a>
+  Este proyecto es una versión modificada y adaptada de un proyecto de  <a href="https://github.com/CleverProgrammers" target="_blank">@Clever Programmer</a>
 </p>
